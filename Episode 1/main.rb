@@ -5,4 +5,6 @@
 
 # 19.0.26
 
-puts 'Hello World!' # convention for printing is to use '' (single-quote)
+# Ruby is an Interpreted language (like Python), and not Compiled like C/C++
+
+puts 'Hello World!' # convention for printing is to use '' (single-quote), rather than double-quotes, unless performing string-interpolation (passing vars into strings - like f-str in Python) or passing symbols in Python
