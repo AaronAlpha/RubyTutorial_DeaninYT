@@ -9,4 +9,4 @@ puts 'Hello World!'
 puts "Hello World!" # are interchangeable, but single-quote strings are convention
 
 puts "Hello Name's " + first_name # can embed single- or double-quotes in a set of the other quote type
-puts 'Hello Name"s ' + first_name
+puts 'Hello Name"s ' + first_name # vice versa
