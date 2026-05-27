@@ -2,6 +2,7 @@
 
 # 19.05.26
 
+# Note: a str is a sequence of char - str go in double-quotes, but printing (put-ting) out utilizes single-quotes as per convention
 first_name = "Name" # Ruby uses snake_case variable-naming convention (i.e. using 'underscores' (_) as spaces in var naming)
 last_name = "NameLast"
 

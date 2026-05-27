@@ -1,7 +1,11 @@
 # frozen_string_literal: true
 
-# the above statement is required to ensure that string (str) literals are set to be immutable
+# doc page: "Indicates that string literals should be allocated once at parse time and frozen."
+# the top line statement is required to ensure that string (str) literals are set to be immutable
 # because: "Everything in Ruby is an Object", thus a str, meant to be a literal can have its state change, if not including above comment
+
+# known as a "Magic Command" and only appear at the top of the file (and affect the file it exists in, and no other file) - these are file directives
+# contains directives that affect the code upon interpreting (at run-time that is)
 
 # 19.0.26
 
